@@ -1,0 +1,49 @@
+.que-type-blk{
+    display:flex;
+    .form-group{
+    }
+}
+.response-top-blk{
+    display:flex;
+}
+
+.que-settiing-blk{
+    padding-top:24px;
+    .heading-blk{
+        margin-bottom:20px;
+        padding-left:10px;
+        h5{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            display: flex;
+            align-items: center;
+            color: #0C1420;
+            margin-bottom: 0;
+        }
+    }
+}
+
+.listbox-top-blk{
+    display:flex;
+    .form-group{
+        padding: 0 10px;
+    }
+    .width-blk{
+        width:10%;
+    }
+
+    .field-sm{
+        width:20%;
+    }
+}
+.listbox-bottom-blk{
+    .form-group{
+        padding:0 10px;
+        
+    }
+}
+.Synchr-fields-blk{
+    display:flex;
+}

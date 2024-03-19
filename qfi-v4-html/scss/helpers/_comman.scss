@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+}
+body.overflow{
+  overflow: hidden;
+}
+p, h1, h2, h3, h4, h5, h6, ul, li , a, figcaption, figure{
+  margin:0;
+  padding:0;
+  list-style: none;
+  text-decoration: none;
+}
+button:focus{
+  outline:none;
+}
+.p-24{
+  padding:24px;
+}
+.pt-20{
+  padding-top:20px;
+}
+.pb-20{
+  padding-bottom:20px;
+}
+.ptb-20{
+  padding:20px 0;
+}
+.mb-50{
+  margin-bottom:50px;
+}
+.spacer18{
+  width:18px;
+}
+
+.icon-dragicon{
+  cursor:all-scroll;
+}
+
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/*loader css start */
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: block;
+  }
+  
+  #preloader .loader-inner-wrapper {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -45px;
+    width: 100px;
+    height: 90px;
+    text-align: center;
+  }
+  
+  #preloader .loader-inner-wrapper .loader-icon {
+    width: 60px;
+    position: relative;
+    top: 23px;
+    -webkit-animation: scaling 0.9s infinite linear;
+    animation: scaling 0.9s infinite linear;
+  }
+
+  @-webkit-keyframes scaling {
+    0% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      opacity: 1;
+    }
+    65% {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+      opacity: 0.7;
+    }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes scaling {
+    0% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      opacity: 1;
+    }
+    65% {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+      opacity: 0.7;
+    }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  /* loader css close */
+
+
+  .cstm-table{
+    border: 1px solid rgba(209, 216, 227, 0.48);
+  }
